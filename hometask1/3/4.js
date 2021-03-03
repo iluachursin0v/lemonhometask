@@ -1,12 +1,12 @@
 var unit, number, result;
-unit = "kb";
+unit = "mb";
 number = 5; 
 
 switch(unit){
-    case "byte":
-        esult = number;
+    case "bg":
+        result = number;
         break;
-    case "kb":
+    case "gb ":
         result = number * 1024;
         break;
     case "mb":
